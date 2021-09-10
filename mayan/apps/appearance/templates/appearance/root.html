@@ -18,7 +18,9 @@
                 {% block title %}{% endblock %} :: {% block project_name %}{% smart_setting 'COMMON_PROJECT_TITLE' %}{% endblock %}
             {% endblock base_title %}
         </title>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
         <link href="{% static 'appearance/node_modules/@fortawesome/fontawesome-free/css/all.min.css' %}" media="screen" rel="stylesheet" type="text/css" />
         <link href="{% static 'appearance/node_modules/bootswatch/flatly/bootstrap.min.css' %}" media="screen" rel="stylesheet" type="text/css" />
         <link href="{% static 'appearance/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css' %}" media="screen" rel="stylesheet" type="text/css" />
